@@ -27,5 +27,7 @@ services:
         value: "8000"
       - key: APP_ENV
         value: "production"
+      - key: PYTHON_VERSION
+        value: "3.12.9"
     healthCheckPath: /health
     autoDeploy: true
